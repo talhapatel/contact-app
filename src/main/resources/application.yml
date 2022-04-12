@@ -1,0 +1,18 @@
+server:
+  port: 9090
+
+
+sprring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+    driver-calss-name: org.h2.Driver
+
+
+app:
+  messages:
+    contactSaveSucc: Contact Saved
+    contactsaveFail: Failed to save contact
+    contactDelSucc: Contact Deleted
+    contactDelFail: Failed to delete contact
